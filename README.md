@@ -27,8 +27,17 @@ path of tapermonkeyp data:
 
 ![dsfga](doc/run_github_action.png "sd")
 
-### 5 wait a moment until action 
+### 5 wait a moment until action finish
 result: result/ret.zip  
 log: github-action-run.log
 
 ### 6 download result/ret.zip
+
+
+### 7 delete the result zip and log file by running the "clear-output-result" action
+
+![dsfga](doc/run_clear_action.png "sd")
+
+
+
+
