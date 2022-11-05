@@ -35,7 +35,7 @@ jobs:
 #      - run: git add github-action-run.log
       - uses: actions/upload-artifact@v3
         with:
-          name: my-artifact
+          name: my-artifact-extract_output
           path: |
             extract_tampermonkey_script_output
             github-action-run.log
